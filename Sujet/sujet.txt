@@ -1,0 +1,26 @@
+	La ferme familiale
+Ce matin en lisant votre courier, vous recevez une lettre peu habituelle : vous apprenez que vous avez hérité d'une lointaine grand tante une grande ferme familiale quelque part en Bourgogne. 
+Depuis plusieurs mois vous ne rêviez que de vous échapper de votre train-train urbain : c'est décidé, vous allez dès demain vous installer en Bourgogne pour reprendre la ferme ! 
+Une fois arrivé devant la ferme, vous vous sentez déjà chez vous. 
+Il faudra remettre un peu d'ordre mais l'activité pourra vite reprendre. 
+Première étape : les lettres affichant le nom de la ferme sont tombées et vous voulez les réaccrocher. 
+Les lettres sont tombées sur deux tas différents, il semble qu'il suffise simplement d'alterner les lettres de chaque tas por retrouver le nom de la ferme. 
+Ecrivez un programme qui à partir de 2 suites de lettres renvoie une chaîne de caractère combinant alternativement les lettres des 2 suites.
+Données
+Entrée
+Ligne 1 et 2 : 2 chaînes de caractère de même longueur N (1 <= N <= 10). Les 2 chaînes sont composées uniquement de lettres minuscules.
+Sortie
+Une chaîne de caractère de longueur 2N, composée alternativement des lettres des 2 chaîne d'entrée : 
+le première lettre de la chaîne de sortie est la première lettre de la première chaîne d'entrée, 
+puis la première de la seconde chaîne, puis la seconde lettre de la première chaîne...
+Exemple
+Exemple 1
+jri
+adn
+Votre programme devra renvoyer :
+jardin
+Exemple 2
+vreem
+etfre
+Votre programme devra renvoyer :
+verteferme
